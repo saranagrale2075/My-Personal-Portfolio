@@ -4,10 +4,16 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+head {
+  display: none;
 }
 
 body {
     background: #B3CFE5;
+    font-family: "Helvetica Neue", sans-serif;
+
 }
  nav {
     display: flex;
@@ -258,7 +264,7 @@ button {
 }
 
 button:hover {
-  background: #9d4edd;
+  background: #2f99d2;
 }
 
 .info-container {
@@ -280,6 +286,72 @@ button:hover {
 .icon {
   font-size: 2rem;
   color: #a855f7;
+}
+/*Education section*/
+.education {
+  padding: 3rem 1rem;
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #0b1120;
+  position: relative;
+}
+
+.section-title::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: #591068;
+  margin: 10px auto 0;
+  border-radius: 2px;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.edu-card {
+  background-color: #06142e;
+  color: #d1d5db;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding:30px 3.5%;
+  height: 380px;
+  border-radius: 20px;
+  width: 350px;
+  max-width: 300px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.edu-card:hover {
+  transform: translateY(-10px);
+}
+
+.edu-card h3 {
+  font-size: 1.5rem;
+  color: #66ffe0;
+  margin-bottom: 1rem;
+}
+
+.edu-card p {
+  margin: 0.5rem 0;
+  line-height: 1.6;
 }
 .skills-section {
   padding: 4rem 2rem;
@@ -303,7 +375,7 @@ button:hover {
   color: #0e0e0e;
 }
 .skills-section{
-    margin-top: 0%;
+    margin-top: 1px;
     margin-bottom: 20%;
 }
 .skills-grid {

@@ -19,6 +19,7 @@ This is a responsive and clean personal portfolio website built using **HTML**, 
 
 - **Home** – Introduction and welcome message
 - **Skills** – Technologies and tools I use
+- **Education** - What I have pursued
 - **Projects** - I have done recently
 - **Contact Me** – Form to get in touch
 

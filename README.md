@@ -12,8 +12,7 @@ This is a responsive and clean personal portfolio website built using **HTML**, 
 
 ## 🔗 Live Preview
 
-[Click here to view the portfolio](https://sara-personal-portfolio.netlify.app)  
-*(Replace with your actual GitHub Pages link if deployed)*
+[Click here to view the portfolio](https://sara-personal-portfolio.netlify.app)
 
 ## 📁 Sections Included
 
